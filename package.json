@@ -1,0 +1,20 @@
+{
+  "name": "stylis-px2rem-plugin",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oncarapp/stylis-px2rem-plugin.git"
+  },
+  "description": "l",
+  "bugs": {
+    "url": "https://github.com/oncarapp/stylis-px2rem-plugin/issues"
+  },
+  "homepage": "https://github.com/oncarapp/stylis-px2rem-plugin#readme",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    ""
+  ]
+}
