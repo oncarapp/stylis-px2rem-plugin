@@ -16,5 +16,8 @@
   },
   "keywords": [
     ""
-  ]
+  ],
+  "dependencies": {
+    "stylis": "^4.1.1"
+  }
 }
