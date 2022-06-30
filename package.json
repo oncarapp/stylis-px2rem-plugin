@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/oncarapp/stylis-px2rem-plugin.git"
   },
-  "description": "A Stylis 4.x plugin that translates pixel units to rem units.A Stylis 4.x plugin that translates pixel units to rem units.",
+  "description": "A Stylis 4.x plugin that translates pixel units to rem units.",
   "bugs": {
     "url": "https://github.com/oncarapp/stylis-px2rem-plugin/issues"
   },
