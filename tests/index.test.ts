@@ -107,17 +107,6 @@ describe('stylis compilation with stylisPx2RemPlugin', () => {
       });
     });
 
-    describe('remSize', () => {
-      def('configuration', () => ({ remSize: 10 }));
-      def('css', () => 'width:10px;');
-
-      it('translates the px with the new rem size', () => {
-        expect(
-          get('stylisCompile'),
-        ).toEqual('width:1rem;');
-      });
-    });
-
     describe('allowList', () => {
       def('configuration', () => ({ allowList: ['font-size'] }));
       def('css', () => 'font-size:14px;width:10px;');
