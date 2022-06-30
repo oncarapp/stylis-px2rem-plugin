@@ -17,6 +17,7 @@
     "lint": "eslint .",
     "test": "jest ./tests --verbose"
   },
+  "license": "MIT",
   "keywords": [
     ""
   ],
