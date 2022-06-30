@@ -1,13 +1,14 @@
 {
   "include": [
     "src/*",
+    "tests/*",
   ],
   "exclude": ["node_modules"],
   "compilerOptions": {
     "baseUrl": ".",
     "target": "es2016",
     "lib": ["es2016"],
-    "module": "CommonJS",
+    "module": "es6",
     "declaration": true,
     "outDir": "dist",
     "esModuleInterop": true,
