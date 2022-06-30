@@ -1,0 +1,18 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+
+# Config
+#
+.github
+.eslintrc.json
+.gitignore
+package-scripts.js
+tsconfig.json
+
+src
+tests
