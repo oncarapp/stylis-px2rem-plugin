@@ -1,6 +1,6 @@
 # stylis-px2rem-plugin
 
-A Stylis 4.x plugin that translates pixel units to rem units.
+A [Stylis](https://github.com/thysultan/stylis) 4.x plugin that translates pixel units to rem units.
 
 
 ## Installation
