@@ -28,7 +28,10 @@ const stylisPx2RemPlugin: (options?: Px2RemPluginOptions) => Middleware = ({
       if (allowList && !allowList.includes(element.props as string)) return;
       if (blockList && blockList.includes(element.props as string)) return;
 
-      const expression = (element.children as string).replace(pxRegexp, (_match, group) => Number(group) / remSize + 'rem');
+      const expression = (element.children as string).replace(
+        pxRegexp,
+        (match, group) => (group ? Number(group) / remSize + 'rem' : match),
+      );
       const reconstructedDeclaration = element.props + ':' + expression + ';';
 
       element.return = reconstructedDeclaration;

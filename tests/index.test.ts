@@ -5,12 +5,12 @@ import { get, def } from 'bdd-lazy-var';
 
 import stylisPx2RemPlugin from '../src';
 
-describe('stylis compilation', () => {
-  def('stylisCompile', () => serialize(
-    compile(get('css')),
-    middleware([stylisPx2RemPlugin(get('configuration')), stringify]),
-  ));
+def('stylisCompile', () => serialize(
+  compile(get('css')),
+  middleware([stylisPx2RemPlugin(get('configuration')), stringify]),
+));
 
+describe('stylis compilation with stylisPx2RemPlugin', () => {
   describe('default configuration', () => {
     def('configuration', () => ({}));
 
@@ -85,7 +85,7 @@ describe('stylis compilation', () => {
     });
 
     describe('when the declaration has px in an embedded image', () => {
-      def('css', () => 'background-image: url("data:image/gif;base64,64px=");');
+      def('css', () => 'background-image:url("data:image/gif;base64,64px=");');
 
       it('leaves the css intact', () => {
         expect(
